@@ -258,6 +258,7 @@ const VoterDetail = ({
                                 id={candidate.id}
                                 name={candidate.name}
                                 voteCount={candidate.voteCount}
+                                imageURL={candidate.imageURL}
                               />
                             </Grid>
                           ))}
@@ -344,6 +345,7 @@ const VoterDetail = ({
                                 id={candidate.id}
                                 name={candidate.name}
                                 voteCount={candidate.voteCount}
+                                imageURL={candidate.imageURL}
                               />
                             </Grid>
                           ))}
